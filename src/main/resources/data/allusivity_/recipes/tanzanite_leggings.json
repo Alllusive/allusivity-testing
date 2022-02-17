@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XNX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "allusivity_:cut_tanzanite"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "allusivity_:tanzanite_leggings"
+  }
+}

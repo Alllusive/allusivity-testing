@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "allusivity_:raw_tanzanite"
+  },
+  "result": "allusivity_:cut_tanzanite",
+  "count": 1
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "allusivity_",
+  "version": "${version}",
+
+  "name": "Allusivity",
+  "description": "This is an example description.",
+  "authors": [
+    "Allusive_"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.allusive.allusivity_.Allusivity"
+      ]
+  },
+  "mixins": [
+    "allusivity_.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

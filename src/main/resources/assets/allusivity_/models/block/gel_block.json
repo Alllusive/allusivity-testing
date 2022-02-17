@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "allusivity_:block/gel_block"
+  }
+}

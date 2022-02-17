@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "allusivity_:block/tanzanite_outcrop"
+  }
+}

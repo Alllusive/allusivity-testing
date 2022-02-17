@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " ##",
+    " ##"
+  ],
+  "key": {
+    "#": {
+      "item": "allusivity_:gel_lump"
+    }
+  },
+  "result": {
+    "item": "allusivity_:gel_block",
+    "count": 1
+  }
+}
