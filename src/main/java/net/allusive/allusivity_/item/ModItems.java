@@ -54,7 +54,7 @@ public class ModItems {
                     new FabricItemSettings().group(ItemGroup.COMBAT)));
 
     public static final Item TANZANITE_HELMET = registerItem("tanzanite_helmet",
-            new ArmorItem(ModArmourMaterials.TANZANITE, EquipmentSlot.HEAD,
+            new ModArmorItem(ModArmourMaterials.TANZANITE, EquipmentSlot.HEAD,
                     new FabricItemSettings().group(ItemGroup.COMBAT)));
 
     public static final Item ANCIENT_RELIC = registerItem("ancient_relic",
