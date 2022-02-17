@@ -1,7 +1,6 @@
 package net.allusive.allusivity_.block;
 
 import net.allusive.allusivity_.Allusivity;
-import net.allusive.allusivity_.block.custom.ModNetherConduitBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -20,7 +19,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.AMETHYST).hardness(2).requiresTool().nonOpaque()), ItemGroup.MISC);
 
     public static final Block NETHER_CONDUIT = registerBlock("nether_conduit",
-            new ModNetherConduitBlock(FabricBlockSettings.of(Material.GLASS).hardness(4).requiresTool().nonOpaque()), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.GLASS).hardness(4).requiresTool().nonOpaque()), ItemGroup.MISC);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
